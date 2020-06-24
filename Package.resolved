@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "Icebox",
-        "repositoryURL": "https://github.com/jakeheis/Icebox",
+        "repositoryURL": "https://github.com/matthewlprice/Icebox",
         "state": {
           "branch": null,
           "revision": "7e1e9e8da2848fcefc6a182be8e811911d9dd694",
