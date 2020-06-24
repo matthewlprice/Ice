@@ -49,8 +49,8 @@ class TransformerTest {
         primaryCapture.closeWrite()
         secondaryCapture.closeWrite()
         
-        IceAssertEqual(primaryCapture.readAll(), content, file: file, line: line)
-        IceAssertEqual(secondaryCapture.readAll(), "", file: file, line: line)
+        IceAssertEqual(primaryCapture.readAll(), content, file: (file), line: line)
+        IceAssertEqual(secondaryCapture.readAll(), "", file: (file), line: line)
     }
     
 }
