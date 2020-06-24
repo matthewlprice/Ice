@@ -71,7 +71,7 @@ public class Differentiate {
     
 }
 
-public func IceAssertEqual<T: Equatable>(_ first: T?, _ second: T?, file: StaticString = #file, line: UInt = #line) {
+public func IceAssertEqual<T: Equatable>(_ first: T?, _ second: T?, file: StaticString = #filePath, line: UInt = #line) {
     if let firstValue = first, let secondValue = second {
         XCTAssertEqual(firstValue, secondValue, file: (file), line: line)
     } else {
